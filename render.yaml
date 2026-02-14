@@ -11,15 +11,15 @@ services:
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_HOST
-        value: db.iuiscgverinzbbchbuhq.supabase.co
+        sync: false
       - key: DB_POSTGRESDB_DATABASE
-        value: postgres
+        sync: false
       - key: DB_POSTGRESDB_PORT
-        value: "5432"
+        sync: false
       - key: DB_POSTGRESDB_USER
-        value: postgres
+        sync: false
       - key: DB_POSTGRESDB_PASSWORD
-        value: "Mandaria1414."
+        sync: false
       - key: DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED
         value: "false"
       - key: PORT
